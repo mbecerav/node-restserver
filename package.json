@@ -13,11 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.1",  //Encriptar los passwords
-    "body-parser": "^1.18.3",   //Convertir cuerpos de req y res en JSON
-    "express": "^4.16.3",   //Express Application
-    "mongoose": "^5.3.1",   //DB Manager MongoDB
-    "mongoose-unique-validator": "^2.0.2",  //Validador de campo unico de Moongose
-    "underscore": "^1.9.1"    //seleccionador de objetos, modificador de objetos y propiedades de objetos
+    "bcrypt": "^3.0.1", 
+    "body-parser": "^1.18.3",  
+    "express": "^4.16.3",   
+    "mongoose": "^5.3.1",   
+    "mongoose-unique-validator": "^2.0.2", 
+    "underscore": "^1.9.1"    
   }
 }

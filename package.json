@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "10.10.0"
+  },
   "scripts": {
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+    "bcrypt": "^3.0.1",  //Encriptar los passwords
+    "body-parser": "^1.18.3",   //Convertir cuerpos de req y res en JSON
+    "express": "^4.16.3",   //Express Application
+    "mongoose": "^5.3.1",   //DB Manager MongoDB
+    "mongoose-unique-validator": "^2.0.2",  //Validador de campo unico de Moongose
+    "underscore": "^1.9.1"    //seleccionador de objetos, modificador de objetos y propiedades de objetos
   }
 }

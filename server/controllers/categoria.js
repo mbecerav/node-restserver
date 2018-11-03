@@ -9,6 +9,8 @@ const _ = require('underscore')
 app.get('/categoria', (req, res) => {
 
     Categoria.find({}, 'descripcion usuario')
+        .sort('descripcion')
+        .populate('usuario', 'nombre email')
         .exec( (err, categorias) => {
             if ( err ){
                 res.status(400).json({
